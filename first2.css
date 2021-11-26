@@ -1,0 +1,56 @@
+body{background-color: goldenrod;background-size:cover;size-adjust:inherit ;}
+h1{color: rgb(255, 255, 255);}
+p{color:rgb(255, 0, 0); 
+font-size: 30; 
+text-align: center;
+padding: 5px;position: center;
+background:rgba(0, 0,0,0.2);
+text-decoration: underline white 0.8px ;
+text-underline-position: 3px below;
+font-weight: 500;
+}
+h1{font-style:oblique;
+    font-family:'Courier New', Courier, monospace;
+font-weight: bold;}
+table{background-color: rgba(0, 0,0,0.7);border-radius: 20px;
+border: none;color: floralwhite;color:rgb(251, 255, 0);}
+h3{color: cornflowerblue;}
+
+center{background-color: rgba(0, 0,0,0.5);
+    text-decoration: underline blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+h1{color: gold;}
+.input [type="submit"]{color: aqua;}
+
+.box input[type="submit"]:hover{background: #2ecc71;}
+.box input[type = "submit"]{
+border:0;background: none;display: block;margin: 15px auto;text-align: center;border: 2px solid #2ecc71;
+padding: 10px 30px;outline: none;color: white;border-radius: 24px;transition: 0.25s;
+    cursor: pointer;}
+    .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+        width: 280px;
+        border-color: #2ecc71;
+      }
+ 
+      .box input[type = "text"],.box input[type = "password"]{
+        border:0;
+        background: none;
+        display: block;margin: 20px auto;text-align: center;border: 2px solid #3498db;
+padding: 14px 10px;width: 200px;outline: none;color: white;
+border-radius: 24px;transition: 0.5s;}
+.box input[type = "email"]{
+border:0;background: none;display: block;margin: 20px auto;
+text-align: center;border: 2px solid #3498db;padding: 14px 10px;
+width: 200px;outline: none;color: white;border-radius: 24px;
+transition: 0.5s;} 
+.box select[name="country"]{
+    border:0;background: none;display: block;margin: 20px auto;text-align: center;
+    border: 2px solid #3498db;padding: 14px 10px;width: 200px;outline: none;color:red;border-radius: 24px;transition: 0.5s;
+} 
+.box input[type = "number"]{
+border:0;background: none;display: block;margin: 20px auto;text-align: center;
+border: 2px solid #3498db;padding: 14px 10px;width: 200px;outline: none;color:aqua;
+border-radius: 24px;transition: 0.5s;
+}
